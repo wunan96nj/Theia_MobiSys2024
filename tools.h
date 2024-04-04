@@ -1,7 +1,7 @@
 #ifndef _TOOLS_H_
 #define _TOOLS_H_
 
-#include "vivo_server.h"
+#include "theia_server.h"
 #include "videocomm.h"
 
 inline void MyAssert(int x, int assertID) {

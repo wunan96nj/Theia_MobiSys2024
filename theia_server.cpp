@@ -1,7 +1,7 @@
 // 360video_networking.cpp : Defines the entry point for the console application.
 //
 
-#include "vivo_server.h"
+#include "theia_server.h"
 #include "tools.h"
 #include "videocomm.h"
 #include "videodata.h"
@@ -128,9 +128,9 @@ int main(int argc, char * * argv) {
 	}
 	
 	if (VIDEO_COMM::mode == MODE_CLIENT) {
-		SETTINGS::ReadRawSettingsFromFile("./vivo.client.cfg");
+		SETTINGS::ReadRawSettingsFromFile("./theia.client.cfg");
 	} else {
-		SETTINGS::ReadRawSettingsFromFile("./vivo.server.cfg");
+		SETTINGS::ReadRawSettingsFromFile("./theia.server.cfg");
 	}
 	SETTINGS::ApplySettings();
 	InfoMessage("augmentation %d skip %d trace_id %d", VIDEO_COMM::augmentation, VIDEO_COMM::skip, VIDEO_COMM::bw_id);

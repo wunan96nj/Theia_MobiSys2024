@@ -1,7 +1,7 @@
 #ifndef _VIVO_SERVER_H_
 #define _VIVO_SERVER_H_
 
-#define MY_VERSION "ViVo_Server_05222019"
+#define MY_VERSION "Theia_Server_04042024"
 
 #define SOL_TCP 6
 

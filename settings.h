@@ -1,7 +1,7 @@
 #ifndef _SETTINGS_H_
 #define _SETTINGS_H_
 
-#include "vivo_server.h"
+#include "theia_server.h"
 
 //Show debug message?
 //#define DEBUG_MESSAGE

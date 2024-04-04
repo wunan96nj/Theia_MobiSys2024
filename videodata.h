@@ -1,7 +1,7 @@
 #ifndef _VIDEO_DATA_H_
 #define _VIDEO_DATA_H_
 
-#include "vivo_server.h"
+#include "theia_server.h"
 
 struct CHUNK_INFO {
 	long offset;

@@ -1,7 +1,7 @@
 #ifndef _VIDEO_COMM_H_
 #define _VIDEO_COMM_H_
 
-#include "vivo_server.h"
+#include "theia_server.h"
 
 struct VIDEO_MESSAGE {
 	BYTE id;	
