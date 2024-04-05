@@ -283,7 +283,7 @@ FILE * OpenFileForRead(const char * filename) {
 }
 
 void writeToLogFile(const std::string& logMessage) {
-    std::ofstream logFile("../../Logs/log.txt", std::ios_base::app);
+    std::ofstream logFile("./Logs/log.txt", std::ios_base::app);
 
     if (logFile.is_open()) {
         logFile << logMessage << std::endl;
