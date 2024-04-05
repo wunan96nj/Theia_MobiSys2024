@@ -2045,7 +2045,7 @@ void TC_INTERFACE::LoadBWTrace(const char * filename, double dampFactor) {
 		n = fscanf(ifs, "%d", &i2);	// Fixed by Bo Han 06092019
 		MyAssert(i2 >= 0, 3663);
 		if (n != 1) break;
-		dampFactor = 0.02;	//NanWu
+		dampFactor = 0.2;	//NanWu
 		int kbps = int(i2 * dampFactor * 8 / 1000 + 0.5f);
 		if (kbps < 10) kbps = 10;	//to satisfy tc
 		printf("%d %d\n", i2, kbps);
