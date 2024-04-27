@@ -9,6 +9,9 @@ For the server part:
 
 
 To run Theia(L), we can use the command: ./server 2 1 -1.
+
 To run Theia(L+S), we can use the command: ./server 2 2 -1.
+
 To run Theia(L+A), we can use the command: ./server 2 3 -1.
+
 To run Theia, we can use the command: ./server 2 4 -1.
