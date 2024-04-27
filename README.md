@@ -5,9 +5,10 @@ For the server part:
 1) Install CUDA Toolkit, pthread library, and Draco library (https://github.com/google/draco/blob/main/BUILDING.md#cmake-basics);
 2) Clone the code in (https://github.com/wunan96nj/Theia_MobiSys2024_Server);
 3) Compile the code with the command:
+   ```
    nvcc -o server settings.cpp theia_server.cpp tools.cpp videocomm.cpp videodata.cpp gpu_pc_select.cu -O1 -lpthread -ldraco.
-
-
+   ```
+   
 To run Theia(L), we can use the command: ./server 2 1 -1.
 
 To run Theia(L+S), we can use the command: ./server 2 2 -1.
