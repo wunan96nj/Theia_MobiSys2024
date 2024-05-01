@@ -1,5 +1,6 @@
 # Theia_MobiSys2024_Server
 
+This is the server code of Theia. The unreal client code can be found at https://github.com/wunan96nj/Theia_MobiSys2024_Client.
 
 For the hardware requirement on the server side, we tested on a machine equipped with an Intel i7-11700 CPU, 32GB memory, and an NVIDIA GeForce RTX 3060 GPU. We recommend using a machine with a similar or better GPU to reproduce the performance reported in the paper. The OS of our machine is Ubuntu 18.04. Other Linux distributions may also work. For software, we utilize the pthread library, Draco library (V1.5.5), and CUDA toolkit (V11.0).
 
